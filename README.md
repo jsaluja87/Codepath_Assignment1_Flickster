@@ -39,8 +39,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/UFi6S2S.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-<img src='http://i.imgur.com/XREAlvc.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/jsaluja87/Codepath_Assignment1_Flickster/blob/master/Codepath_Assignment1_Flickster_portrait.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/jsaluja87/Codepath_Assignment1_Flickster/blob/master/Codepath_Assignment1_Flickster_landscape.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
