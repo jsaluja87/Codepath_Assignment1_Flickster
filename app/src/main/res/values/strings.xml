@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Flickster</string>
+    <string name="MovieDetailTitle">Title</string>
+    <string name="MovieDetailRelDate">ReleaseDate</string>
+    <string name="MovieDetailOverView">Overview</string>
+    <string name="MovieDetailVoteAvg">VoteAvg</string>
+    <string name="MovieTrailerKey">TrailerKey</string>
+    <string name="MovieDetailBackdropUrl">BackdropUrl</string>
+    <string name="MovieId">MovieId</string>
+</resources>

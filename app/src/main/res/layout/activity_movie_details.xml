@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/MovieDetailsScrollViewBackground"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg_gradient"
+    tools:context="com.codepath.flickster.MovieDetails">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/movie_detail_image_height"
+        android:id="@+id/MDImageId"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MDIconId"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp" />
+
+    <TextView
+        android:id="@+id/MDHeaderId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/MD_header_size"
+        android:textColor="@color/MovieDetailActTextColor"
+        android:padding="@dimen/padding_size"
+        android:textStyle="bold"
+        android:layout_below="@id/MDImageId" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:progressTint="@color/MovieDetailRatingStarColor"
+        android:stepSize="0.5"
+        android:id="@+id/MDRateBarId"
+        android:padding="@dimen/padding_size"
+        android:layout_below="@+id/MDHeaderId"
+        android:isIndicator="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/MDReleaseDateId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MDRateBarId"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/MovieDetailActTextColor"
+        android:textStyle="italic"
+        android:padding="@dimen/padding_size"
+        android:textSize="@dimen/release_date_size" />
+
+    <TextView
+        android:id="@+id/MDDescId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MDReleaseDateId"
+        android:textColor="@color/MovieDetailActTextColor"
+        android:textStyle="italic"
+        android:padding="@dimen/padding_size"
+        android:textSize="@dimen/desc_size"/>
+
+</RelativeLayout>
+
+</ScrollView>

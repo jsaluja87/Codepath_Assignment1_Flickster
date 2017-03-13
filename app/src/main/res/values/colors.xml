@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="MovieDetailActTextColor">#01063d</color>
+    <color name="MovieDetailRatingStarColor">#ebda57</color>
+
+
+    <color name="MainActLVDivColor">#2e2525</color>
+    <color name="MainActLVBackground">#484848</color>
+    <color name="MainActRelBackground">#000000</color>
+
+    <color name="MovieDetailsScrollViewBackground">#f2484848</color>
+</resources>
